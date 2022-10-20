@@ -1,0 +1,13 @@
+Hoặc tạo một kho lưu trữ mới trên dòng lệnh
+echo "# My-project-Bino" >> README.md 
+git init 
+git add README.md 
+git commit -m "first commit" 
+git branch -M main 
+git remote add origin https://github.com/TruongBino/My- project-Bino.git
+ git push -u origin main
+
+Hoặc đẩy một kho lưu trữ hiện có từ dòng lệnh
+git remote add origin https://github.com/TruongBino/My-project-Bino.git
+ git branch -M main 
+git push -u origin main
