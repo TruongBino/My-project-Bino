@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <body>
+            <head>
+                    <link rel="stylesheet" type="text/css" href="login.css" />
+                    <script src="login.js" ></script>
+                <script
+                    src="https://code.jquery.com/jquery-3.6.0.min.js"
+                    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+                    crossorigin="anonymous">
+                </script>
+        
+            </head>
+    <script type="text/javascript">
+                    function display(form){
+                    if (form.username.value=="Truc0208") { 
+                            if (form.password.value=="1803") {              
+                                                            location="http://127.0.0.1:5500/New%20web/index.html" 
+                                                                } else {
+                                                                        alert("Sai mật khẩu..Vui lòng kiểm tra lại !!!")
+                                                                        }
+                                                    } else {  alert("Sai tên đăng nhập.Vui lòng kiểm tra lại !!!")
+                                                            }
+                                            }
+    </script>			
+    <body >
+                    
+             <form >
+                <header class="head-form">
+                    <h2>Log In</h2>
+                    <p>login here using your username and password</p>
+                </header>
+                <div >
+                        <input type="text" name="username" id="txt-input" placeholder="@UserName" /><br>
+                        <input type="password" name="password"placeholder="Password" id="pwd" /><br>
+                        <button class="log-in" type="button" value="Login" onClick="display(this.form)" >Login</button>
+                </div>
+                <div class="other">
+                        <!--      Forgot Password button-->
+                        <a href="https://forms.gle/V9G22ndT6nMZBqcq6" style="color:rgb(0, 0, 0)" >Forgot Password </a>                       <!--     Sign Up button -->
+                        <button class="btn submits sign-up">
+                            <a href="https://forms.gle/V9G22ndT6nMZBqcq6" style="text-decoration:none" >Sign Up</a> 
+                        </button>
+                        <!--      End Other the Division -->
+                </div>
+             </form>
+    </body>
+</html>
